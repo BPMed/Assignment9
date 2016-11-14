@@ -1,0 +1,113 @@
+@font-face {
+	font-family: myFirstFont
+	src: url(sensation_light.woff);
+}
+main {
+	margin: 1em;
+	font-family: myFirstFont;
+	
+}
+
+main li {
+	padding-top: 2em;
+	font-weight: bold;
+	padding-bottom: .75em;
+	margin-top: 2em;
+}
+
+
+img {
+	border: 3px solid #6633cc;
+	margin: 1em;
+}
+
+.padding_canyon {
+	padding-bottom: .75em;
+	margin-top: 5em;
+	text-indent: 24.75em;
+	background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+p {
+	margin-top: 1em;
+}
+.shift_smokey {
+	margin: auto;
+	margin-left: 1em;
+	padding-bottom: .75;
+	margin-top: .75em;
+	border: 3px solid #6633cc;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
+	
+}
+
+.shift_rocky {
+	margin-top: 8em;
+	padding-bottom: .75;
+	background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+p{
+	margin-top: .45em;
+}
+.shift_yosemite {
+	margin-top: 7em;
+	text-indent: 25em;
+	padding-bottom: .75;
+	background: blue;
+    -webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+    transition: width 3s;
+}
+.shift_yosemite:hover {
+    width: 300px;
+}
+.shift_yellow {
+	margin-top: 7em;
+	padding-bottom: .75;
+}
+form {
+	
+	margin-top: 7em;
+	border-top: 3px solid #6633cc;
+	font-weight: bold;
+	
+	
+}
+.subscribe {
+	margin-left: 4.50em;
+	width: 8em;
+}
